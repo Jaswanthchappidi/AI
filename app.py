@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 from groq import Groq
 
 load_dotenv()
- 
+  
 app = Flask(__name__)
 # IMPORTANT: This allows your React app to talk to Flask
 CORS(app, resources={r"/api/*": {"origins": "*"}}) 
